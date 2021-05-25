@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+/* font-family: 'Fascinate', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+/* font-family: 'Fascinate', cursive; */
+
+/* 
+.navbar {
+  padding: 10px 0px;
+  height:90px;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(68, 68, 68, 0.527));
+  font-size: 30px;
+  
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+ margin-left:50%;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 18px 2px;
+  padding: 8px;
+}
+.lg {
+  color: white;
+  width: 15%;
+  text-align: center;
+}
+.tu{
+  font-family: 'Fascinate', cursive;
+}
+.en{
+  font-family: 'Condiment', cursive;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+body {
+  background: url(bg2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* font-family: 'Condiment', cursive; */
+}
+.container {
+  text-transform: capitalize;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  left: 6%;
+}
+.container h1 {
+  border-bottom: 5px black;
+  border-style: outset;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.box {
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+}
+.box input {
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.box i {
+  width: 27px;
+  text-align: center;
+}
+.container button {
+  border: none;
+  background: rgba(144, 255, 116, 0.726);
+  border-radius: 12px;
+  font-size: 20px;
+  outline: none;
+  padding: 5px 15px;
+  margin: 22px 0px;
+  cursor: pointer;
+}
+footer{
+    margin-top: 80vh;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* font-family: 'Condiment', cursive; */
+  }
+  .container{
+    top: 30%;
+    margin: 15px;
+  }
+  input{
+    width: 230px;
+    
+  }
+ 
+}
