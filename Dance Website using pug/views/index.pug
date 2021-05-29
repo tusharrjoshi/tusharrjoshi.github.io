@@ -1,0 +1,82 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.navclass 
+      
+      ul 
+        div#logo
+          img(src="/static/lg.png", alt="", srcset="")
+          |TDA
+        li #[a(href="/") Home ]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact ]
+    
+    //- this is intro section
+
+    section#introSection
+      div Welcome to my Dance Academy 
+      div Eat Sleep Dance Repeat
+
+      //- this is Our Mission
+
+    section#ourMission
+      h2 Our Mission 
+      div.card
+        h3 Dance Like a Pro 
+        div.card-box 
+          div.card-img
+            img(src="/static/1.png", alt="", srcset="")
+
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur similique laborum fugit! Accusantium, perspiciatis harum.
+
+          
+      
+      div.card
+        h3 Dance as you like.
+        div.card-box 
+          div.card-img
+            img(src="/static/2.png", alt="", srcset="")
+
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur similique laborum fugit! Accusantium, perspiciatis harum.
+
+          
+      
+      div.card
+        h3 Make your dance perfect
+        div.card-box 
+          div.card-img
+            img(src="/static/3.png", alt="", srcset="")
+
+          div.content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur similique laborum fugit! Accusantium, perspiciatis harum.
+
+          
+      
+      //- this is sponser
+
+    section#sponserSection
+      h Our Sponsers 
+    
+      div.tata 
+        img(src="/static/rt.jpg", alt="", srcset="")
+        blockquote.rt I don't believe in taking right decisions. I take decisions and then make them right."For entrepreneurs, some decisions can make or break anything. Ratan Tata firmly believes that sometimes you have to make the decisions and prove them right rather than taking the right decisions. Entrepreneurs and innovators are questioned every time they wish to venture into a new zone and a lot of people stress the importance of taking the 'right decisions'. However, sometimes the best way is to make a decision and then work to make it right.
+
+    
+      div.tata 
+        blockquote.rt “The India that President Trump will see in 2020 is very different from what Bill Clinton saw earlier. This is really the people’s boom. We have the opportunity to become a premier digital society in the world. All our development will be enabled by tools of technology.” “I think our fundamental belief is that for us growth is a way of life and we have to grow at all times.” Essentially, whoever is successful, whoever is going to do things that make a difference, is going to be talked about.” “Everybody has equal opportunity and I think that is true for everything.”
+        img(src="/static/ma.jpg", alt="", srcset="")
+
+    //- this is intro footer
+
+  
+
+  script
+    include ../static/index.js

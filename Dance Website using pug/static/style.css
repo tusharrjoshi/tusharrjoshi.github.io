@@ -1,0 +1,191 @@
+/* This is for navbar  */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* intro section font  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Merienda One', cursive;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0px 14px;
+}
+#logo img{
+    filter: invert(1);
+    height: 50px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: #010002;
+    padding: 20px 4px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.3rem;
+  
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+}
+#navbar li {
+    list-style: none;
+    
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 13px;
+    
+}
+#introSection{
+    background-color: #010002;
+    height: 500px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+}
+#ourMission{
+    height: 450px;
+    /* margin: 12px 10px; */
+
+}
+#ourMission h2{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    padding: 20px;
+}
+
+div.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px 15px;
+    height: 250px;
+    padding: 8px;
+}
+.card-box{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-box img{
+    height: 150px;
+}
+div.card h3{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+div.card p{
+    color: black;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.content{
+    font-size: 1rem;
+    text-align: justify;
+}
+#sponserSection{
+    background-color: rgba(59, 59, 59, 0.411);
+    height: 900px;
+    color: black;
+}
+
+div.tata{
+    margin: 45px 259px;
+}
+#sponserSection li{
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    text-decoration:underline ;
+    text-indent: 15%;  
+}
+#sponserSection li a{
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    text-decoration:underline ;
+    text-indent: 10%;  
+}
+#sponserSection h{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    padding: 20px;
+}
+#sponserSection div img{
+    height: 236px;
+    width: 356px;
+    margin: auto 5px;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius: 15px;
+    box-shadow: 2px 5px 4px 5px #888888;
+    margin-left: 35px;
+}
+
+#sponserSection div.tata{
+    display: flex;
+    flex-direction: row;
+}
+#sponserSection  blockquote{
+    width: 800px;
+    height: 250px;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    color: black;
+    border: 6px solid black;
+    border-bottom-right-radius: 38px;
+    border-top-left-radius: 38px;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 93px;
+    font-size: 1.31rem;
+    font-weight: bold;
+    text-indent: 3rem;
+    box-shadow: 2px 5px 4px 5px #888888;
+}
+    
+
+ #footer{
+    background-color: black;
+    text-align: center;
+}
+
+/* common classes */
+/* .secondary{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    padding: 20px;
+}  */
+
+
